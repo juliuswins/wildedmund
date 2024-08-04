@@ -80,13 +80,16 @@
 
 .donate{
   display: flex;
+  position: relative;
+  flex-direction:row;
+  float: center;
   align-items: center;
-  justify-content:space-between;
+  justify-content:center;
 }
 
 #leftdonate{
-  width: 40%;
-  height: 275px;
+  width: 30%;
+  height: 400px;
   padding: 10px;
   text-align: center;
   position: relative;
@@ -97,37 +100,30 @@
   justify-content:center;
   border-radius: 20px;
   background-color:rgb(255, 200, 160);
-  margin-left:100px;
+  padding: 10px;
+  margin-left:10%;
 }
 
 #rightdonate{
   display: flex;
   flex-direction: column;
-  height: 275px;
-  margin-right:100px;
+  height: 400px;
+  margin-right:10%;
   border-radius: 20px;
   background-color:rgb(183, 222, 235);
-  width: 40%;
+  width: 30%;
   padding: 10px;
-  justify-content:center;
+  justify-content:space-evenly;
   text-align: center;
   float:right;
   position: relative;
   margin-left: 50px;
 }
 
-#space{
-  flex-direction: column;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-}
-
 #painting{
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content:bottom;
   text-align: center;
   align-items: center;
   padding: 20px;
@@ -181,12 +177,7 @@
   </div>
   <br>
 </div>
-<div id="space">
-  <br>
-</div>
-<div id="painting">
-  <img id="ruthspainting" src="WILD_EDMUND_RUTH_HEINERS_PAINTING.png" width="60%">
-</div>
+<br>
 </div>
 </body>
 </html>
