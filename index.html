@@ -12,8 +12,11 @@
   <meta name="geo.region" content="AU-QLD">
   <style>
     body {
+      display: flex;
+  flex-direction: column; /* Stacks content vertically */
+  justify-content: space-between; /* Pushes the "bottomscreen" div to the bottom */
       font-family: Times New Roman;
-      font-size: 3vh;
+      font-size: 24px;
       color: black;
       background-color: white;
       text-align: center; /* Centers the content horizontally */
@@ -36,18 +39,28 @@
 
     a{
       font-family: Times New Roman;
-      font-size: 3vh;
+      font-size: 24px;
       color: black;
     }
     img {
   border-style: solid;
   border-width: 5px;
-  max-width: 50vw; /* Set a maximum width */
-  max-height: 50vh;
   height: auto; /* Maintain aspect ratio */
   text-align: right;
   float:right;
   position: relative;
+}
+
+#video{
+  text-align: right;
+  float:right;
+  position: relative;
+}
+
+#leftside{
+  text-align: left;
+  float:left;
+  position:relative;
 }
 
 .bottomscreen{
@@ -55,20 +68,30 @@
   float:right;
   position: relative;
 }
-
   </style>
 </head>
 <body>
+  <div id="leftside">
 <h1>WILD EDMUND</h1>
-<h3>Purchase (or read a sample) from:</h3></p>
+<div id="video">
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/JUKCVjr8djI?si=AO6JHlhTkG6javC-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br>
+</div>
+<h3>Purchase (or read a sample) from:</h3>
 <p><b><a href="https://play.google.com/store/books/details?id=DyUWEQAAQBAJ">eBook store</a> / <a href="https://play.google.com/store/audiobooks/details/Julian_M_Lawson_WILD_EDMUND?id=AQAAAEAyyQSJJM">Play Books Audio Book</b></a> on Google Play Books</p>
 <p><b><a href="https://amazon.com/dp/B0DB62SRGY">US & global page</a> / <a href="https://amazon.com.au/dp/B0DB62SRGY">Australian page</a></b> on Amazon (Kindle Ebook or Paperback)</p>
 <p><b><a href="https://www.barnesandnoble.com/w/wild-edmund-julian-m-lawson/1146110098">US & global page</b></a> on BN.com / Barnes & Noble (Nook eBook or Paperback)</p>
 <p><b><a href="donate.html">Donate via Paypal or Bitcoin.</a></b></p>
 <p><b><a href="https://linktr.ee/juliusecho">Other work.</a></b></p>
-<div class="bottomscreen">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/JUKCVjr8djI?si=AO6JHlhTkG6javC-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p>Written by Julian M. Lawson. Painting by Ruth Heiner. Edited by Rebecca McHutchison.</p>
+<p>Written by Julian M. Lawson.</p>
+<p>Artwork by Ruth Heiner. Edited by Rebecca McHutchison.</p>
+<br>
+<h3>ABOUT:</h3>
+<p>Edmund Aubury is a man who is yearning to live in nature. He had already avoided working and paying taxes for years.</p>
+<p>He was radical in his opinions and was looking for a way out of a system he didn’t care for.</p>
+<p>Now he will go a step further, living entirely off the grid – away from laws, society and estrangement from his own family. He would live in the Australian bushland with only his essentials. He would hunt to survive and explore the wilderness for his entertainment.</p>
+<p>What begins as a holiday, soon turns into a nightmare. He must face nature at its most dangerous, humanity at its most cruel and his own past, while at his most vulnerable.
+</p>
 </div>
 </body>
 </html>
